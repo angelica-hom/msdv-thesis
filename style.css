@@ -1,0 +1,27 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;200;300;400;500;600;700;800;900;1000&display=swap');*/
+
+/*body {*/
+/*  font-family: 'Roboto Flex', sans-serif;*/
+/*}*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.hero {
+    background-color: #007bff;
+    height: 100%;
+    color: #fff;
+}
+
+.hero-text {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .hero-text {
+        font-size: 2rem;
+    }
+}

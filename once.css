@@ -1,0 +1,22 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+.container-fluid {
+    height: 100%;
+    padding: 0;
+}
+
+.row {
+    height: 100%;
+}
+
+.left-section {
+    background-color: #F3EFE9;
+}
+
+.right-section {
+    background-color: #012749;
+    color: #FFF; /* Set text color to white for better contrast */
+}

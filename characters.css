@@ -1,0 +1,26 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.container-fluid {
+    height: calc(100% - 56px); /* Subtract navbar height */
+    padding: 0;
+}
+
+.row {
+    height: 100%;
+}
+
+.left-section {
+    background-color: #F3EFE9;
+}
+
+.right-section {
+    background-color: #570F31;
+    color: #FFF; /* Set text color to white for better contrast */
+}
