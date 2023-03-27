@@ -8,6 +8,12 @@ body, html {
     margin-bottom: 0;
     height: 35px;
     align-items: center; /* Center the navbar content vertically */
+    background-color: #232122; /* New navbar background color */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #F3EFE9; /* New navbar text color */
 }
 
 .container-fluid {
