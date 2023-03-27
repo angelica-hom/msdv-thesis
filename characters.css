@@ -6,10 +6,12 @@ body, html {
 
 .navbar {
     margin-bottom: 0;
+    height: 35px;
+    align-items: center; /* Center the navbar content vertically */
 }
 
 .container-fluid {
-    height: calc(100% - 56px); /* Subtract navbar height */
+    height: calc(100% - 35px); /* Subtract navbar height */
     padding: 0;
 }
 
