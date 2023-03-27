@@ -56,7 +56,8 @@ body, html {
     color: #FFF; /* Set text color to white for better contrast */
 }
 
-.navbar-custom a {
-  color: inherit;
+a:focus, a:active, a:hover {
+  outline: none;
   text-decoration: none;
+  color: #F3EFE9; /* Set the desired color for the links */
 }
