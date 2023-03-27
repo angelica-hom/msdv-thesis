@@ -55,3 +55,8 @@ body, html {
     background-color: #570F31;
     color: #FFF; /* Set text color to white for better contrast */
 }
+
+.navbar-custom a {
+  color: inherit;
+  text-decoration: none;
+}
