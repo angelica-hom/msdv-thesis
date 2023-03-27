@@ -1,28 +1,39 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;200;300;400;500;600;700;800;900;1000&display=swap');*/
-
-/*body {*/
-/*  font-family: 'Roboto Flex', sans-serif;*/
-/*}*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;200;300;400;500;600;700;800;900;1000&display=swap');
 
 body, html {
     height: 100%;
     margin: 0;
     overflow-x: hidden;
+    font-family: 'Roboto Flex', sans-serif;
 }
 
-.hero {
-    background-color: #007bff;
-    height: 100%;
-    color: #fff;
-}
-
-.hero-text {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+.hero-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3EFE9;
+    color: #232122;
 }
 
 @media (max-width: 768px) {
-    .hero-text {
-        font-size: 2rem;
-    }
+  .hero-text {
+    font-size: 2rem;
+  }
+}
+
+.decoding {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    letter-spacing: 1.17em;
+    color: #232122;
+}
+
+.else {
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 120px;
+    letter-spacing: 0.15em;
+    color: #232122;
 }
