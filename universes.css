@@ -7,6 +7,16 @@ body, html {
     overflow-x: hidden;
 }
 
+.container-fluid {
+    height: calc(100% - 35px); /* Subtract navbar height */
+    padding: 0;
+}
+
+.row {
+    height: 100%;
+}
+
+/* NAVBAR */
 .navbar-custom {
     margin-bottom: 0;
     height: 35px;
@@ -45,19 +55,12 @@ a:focus, a:active, a:hover {
   color: #F3EFE9; /* Set the desired color for the links */
 }
 
-.container-fluid {
-    height: calc(100% - 35px); /* Subtract navbar height */
-    padding: 0;
-}
-
-.row {
-    height: 100%;
-}
-
+/* LEFT SECTION STYLE */
 .left-section {
     background-color: #F3EFE9;
 }
 
+/* RIGHT SECTION STYLE */
 .right-section {
     background-color: #F3EFE9;
     color: #232122; /* Set text color to white for better contrast */
@@ -103,4 +106,13 @@ a:focus, a:active, a:hover {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+}
+
+/* VISUALIZATION */
+.vertical-center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
