@@ -39,6 +39,12 @@ body, html {
     background-color: #F3EFE9; /* New background color on hover */
 }
 
+a:focus, a:active, a:hover {
+  outline: none;
+  text-decoration: none;
+  color: #F3EFE9; /* Set the desired color for the links */
+}
+
 .container-fluid {
     height: calc(100% - 35px); /* Subtract navbar height */
     padding: 0;
@@ -57,8 +63,44 @@ body, html {
     color: #FFF; /* Set text color to white for better contrast */
 }
 
-a:focus, a:active, a:hover {
-  outline: none;
-  text-decoration: none;
-  color: #F3EFE9; /* Set the desired color for the links */
+.right-section #content {
+    padding: 10px;
+}
+
+.right-section #content h2 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+.right-section #content .subheading {
+    font-family: 'Roboto Flex', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.right-section #content h3 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 28px;
+  }
+}
+
+.right-section #content .bold {
+    font-weight: 800;
+}
+
+.right-section #content p {
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
 }
