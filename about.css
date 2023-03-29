@@ -7,6 +7,11 @@ body, html {
     overflow-x: hidden;
 }
 
+.container-fluid {
+    height: calc(100% - 35px); /* Subtract navbar height */
+    padding: 0;
+}
+
 .hero-container {
     height: 100vh;
     display: flex;
@@ -48,6 +53,7 @@ body, html {
     max-width: 1163px;
 }
 
+/* NAVBAR */
 .navbar-custom {
     margin-bottom: 0;
     height: 35px;
@@ -78,9 +84,4 @@ body, html {
 .navbar-custom .nav-link:hover {
     color: #232122;
     background-color: #F3EFE9; /* New background color on hover */
-}
-
-.container-fluid {
-    height: calc(100% - 35px); /* Subtract navbar height */
-    padding: 0;
 }

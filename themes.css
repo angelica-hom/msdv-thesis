@@ -64,10 +64,11 @@ a:focus, a:active, a:hover {
 .right-section {
     background-color: #009D9A;
     color: #FFF; /* Set text color to white for better contrast */
+    justify-content: flex-start!important;
 }
 
 .right-section #content {
-    padding: 10px;
+    padding: 25px;
 }
 
 .right-section #content h2 {
