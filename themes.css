@@ -95,14 +95,14 @@ a:focus, a:active, a:hover {
 .right-section #content .subheading {
     font-family: 'Roboto Flex', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 16px;
 }
 
 .right-section #content h3 {
     font-family: 'Roboto Flex', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 16px;
 }
 
@@ -120,7 +120,7 @@ a:focus, a:active, a:hover {
     font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 /* VISUALIZATION */

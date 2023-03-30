@@ -75,21 +75,21 @@ a:focus, a:active, a:hover {
     font-family: 'Roboto Flex', sans-serif;
     font-style: normal;
     font-weight: 200;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .right-section #content .subheading {
     font-family: 'Roboto Flex', sans-serif;
     font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .right-section #content h3 {
     font-family: 'Roboto Flex', sans-serif;
     font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 @media (max-width: 768px) {
@@ -106,7 +106,7 @@ a:focus, a:active, a:hover {
     font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 /* VISUALIZATION */
