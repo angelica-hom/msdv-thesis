@@ -21,6 +21,10 @@ body, html {
     color: #232122;
 }
 
+.hero-container #content {
+    padding: 25px;
+}
+
 @media (max-width: 768px) {
   .hero-text {
     font-size: 2rem;

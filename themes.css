@@ -60,9 +60,23 @@ a:focus, a:active, a:hover {
     background-color: #F3EFE9;
 }
 
+/* Change the font of the accordion buttons */
+.accordion-button {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 14px;
+    background-color: #D9E9D8;
+}
+
+/* Change the font of the accordion content */
+.accordion-body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    color: #003D3C;
+}
+
 /* RIGHT SECTION STYLE */
 .right-section {
-    background-color: #009D9A;
+    background-color: #006664;
     color: #FFF; /* Set text color to white for better contrast */
     justify-content: flex-start!important;
 }
@@ -75,21 +89,21 @@ a:focus, a:active, a:hover {
     font-family: 'Roboto Flex', sans-serif;
     font-style: normal;
     font-weight: 200;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .right-section #content .subheading {
     font-family: 'Roboto Flex', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .right-section #content h3 {
     font-family: 'Roboto Flex', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 @media (max-width: 768px) {
