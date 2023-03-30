@@ -49,10 +49,20 @@ body, html {
     background-color: #F3EFE9; /* New background color on hover */
 }
 
-a:focus, a:active, a:hover {
-  outline: none;
-  text-decoration: none;
-  color: #F3EFE9; /* Set the desired color for the links */
+/*a:focus, a:active, a:hover {*/
+/*  outline: none;*/
+/*  text-decoration: none;*/
+  /*color: #F3EFE9; /* Set the desired color for the links */
+/*}*/
+
+/* Change the color of an inactive (unvisited) hyperlink */
+a {
+    color: #6929C4; /* Replace with your desired color */
+}
+
+/* Change the color of a hyperlink when hovered over */
+a:hover {
+    color: #5A9; /* Replace with your desired color */
 }
 
 /* LEFT SECTION STYLE */
