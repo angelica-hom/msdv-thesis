@@ -81,6 +81,7 @@ a:hover {
     background-color: #012749;
     color: #FFF; /* Set text color to white for better contrast */
     justify-content: flex-start!important;
+    position: relative;
 }
 
 .right-section #content {
@@ -123,6 +124,23 @@ a:hover {
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
+}
+
+.justify-content-between {
+    padding: 0px 25px!important;
+    font-family: 'Roboto Flex', sans-serif!important;
+}
+
+.button-bold {
+    font-weight: 800;
+}
+
+.nav-sticky-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
 }
 
 /* VISUALIZATION */
