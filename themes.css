@@ -74,6 +74,9 @@ a:hover {
 /* LEFT SECTION STYLE */
 .left-section {
     background-color: #F3EFE9;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
 }
 
 /* Change the font of the accordion buttons */
@@ -158,10 +161,6 @@ a:hover {
 }
 
 /* VISUALIZATION */
-.vertical-center {
-  margin: 0;
-  position: relative;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+.flourish-embed-container {
+    width: 100%;
 }
