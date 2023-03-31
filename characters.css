@@ -50,9 +50,9 @@ body, html {
 }
 
 /* Change the background-color and color for the "Characters" button */
-.btn-characters {
-    background-color: #F3EFE9;
-    color: #232122;
+.btn-selected {
+    background-color: #F3EFE9 !important;
+    color: #232133 !important;
 }
 
 /*a:focus, a:active, a:hover {*/

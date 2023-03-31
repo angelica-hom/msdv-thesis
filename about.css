@@ -89,3 +89,9 @@ body, html {
     color: #232122;
     background-color: #F3EFE9; /* New background color on hover */
 }
+
+/* Change the background-color and color for the "Characters" button */
+.btn-selected {
+    background-color: #F3EFE9 !important;
+    color: #232133 !important;
+}
