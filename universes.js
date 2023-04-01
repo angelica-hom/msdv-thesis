@@ -6,6 +6,6 @@ document.addEventListener('keydown', function (event) {
 
 document.addEventListener('keydown', function (event) {
     if (event.code === 'ArrowRight') {
-        window.location.href = 'once.html';
+        window.location.href = 'conclusion.html';
     }
 });
