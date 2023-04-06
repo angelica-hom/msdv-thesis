@@ -92,21 +92,21 @@ a:hover {
     font-family: 'Roboto Flex', sans-serif;
     font-style: normal;
     font-weight: 200;
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .left-section #content .subheading {
     font-family: 'Roboto Flex', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .left-section #content h3 {
     font-family: 'Roboto Flex', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 @media (max-width: 768px) {
@@ -123,12 +123,17 @@ a:hover {
     font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .justify-content-between {
     padding: 0px 25px!important;
     font-family: 'Roboto Flex', sans-serif!important;
+}
+
+.interact {
+    border: 2px solid black;
+    padding: 10px 20px;
 }
 
 .button-bold {
